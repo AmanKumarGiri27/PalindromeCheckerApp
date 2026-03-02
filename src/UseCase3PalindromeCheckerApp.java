@@ -1,8 +1,9 @@
+import java.util.*;
 public class UseCase3PalindromeCheckerApp {
 
     public static void main(String[] args) {
-
-        String original = "level";
+       Scanner input =new Scanner(System.in);
+        String original = input.nextLine();
 
         String reversed = "";
 
